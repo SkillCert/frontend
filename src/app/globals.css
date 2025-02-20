@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+footer {
+  @layer components {
+    h2 {
+      @apply text-purple-600 font-bold text-[24px] leading-[36px] mb-6 mt-[60.28px];
+    }
+
+    a {
+      @apply cursor-pointer;
+    }
+  }
+}
