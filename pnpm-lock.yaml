@@ -13,7 +13,10 @@ importers:
         version: 0.12.0
       '@creit.tech/stellar-wallets-kit':
         specifier: ^1.6.1
-        version: 1.6.1(@babel/core@7.26.9)(@stellar/stellar-base@12.1.1)(@stellar/stellar-sdk@12.3.0)(@trezor/connect@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@types/react@19.0.10)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(near-api-js@5.0.1)(react@19.0.0)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.6.1(@babel/core@7.26.9)(@stellar/stellar-base@12.1.1)(@stellar/stellar-sdk@12.3.0)(@trezor/connect@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@types/react@19.0.10)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(near-api-js@5.0.1)(react@19.0.0)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@creit.tech/xbull-wallet-connect':
+        specifier: ^0.3.0
+        version: 0.3.0
       '@radix-ui/react-alert-dialog':
         specifier: ^1.1.6
         version: 1.1.6(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -4110,7 +4113,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@creit.tech/stellar-wallets-kit@1.6.1(@babel/core@7.26.9)(@stellar/stellar-base@12.1.1)(@stellar/stellar-sdk@12.3.0)(@trezor/connect@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@types/react@19.0.10)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(near-api-js@5.0.1)(react@19.0.0)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@creit.tech/stellar-wallets-kit@1.6.1(@babel/core@7.26.9)(@stellar/stellar-base@12.1.1)(@stellar/stellar-sdk@12.3.0)(@trezor/connect@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@types/react@19.0.10)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(near-api-js@5.0.1)(react@19.0.0)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@albedo-link/intent': 0.12.0
       '@creit.tech/xbull-wallet-connect': 0.3.0
@@ -4125,8 +4128,8 @@ snapshots:
       '@ngneat/elf-persist-state': 1.2.1(rxjs@7.8.1)
       '@stellar/freighter-api': 4.0.0
       '@stellar/stellar-base': 12.1.1
-      '@trezor/connect-plugin-stellar': 9.0.6(@stellar/stellar-sdk@12.3.0)(@trezor/connect@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(tslib@2.8.1)
-      '@trezor/connect-web': 9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@trezor/connect-plugin-stellar': 9.0.6(@stellar/stellar-sdk@12.3.0)(@trezor/connect@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(tslib@2.8.1)
+      '@trezor/connect-web': 9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@walletconnect/modal': 2.6.2(@types/react@19.0.10)(react@19.0.0)
       '@walletconnect/sign-client': 2.11.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       buffer: 6.0.3
@@ -5019,6 +5022,15 @@ snapshots:
     transitivePeerDependencies:
       - fastestsmallesttextencoderdecoder
 
+  '@solana/rpc-subscriptions-channel-websocket@2.0.0(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+    dependencies:
+      '@solana/errors': 2.0.0(typescript@5.8.2)
+      '@solana/functional': 2.0.0(typescript@5.8.2)
+      '@solana/rpc-subscriptions-spec': 2.0.0(typescript@5.8.2)
+      '@solana/subscribable': 2.0.0(typescript@5.8.2)
+      typescript: 5.8.2
+      ws: 7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+
   '@solana/rpc-subscriptions-channel-websocket@2.0.0(typescript@5.8.2)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@solana/errors': 2.0.0(typescript@5.8.2)
@@ -5035,6 +5047,24 @@ snapshots:
       '@solana/rpc-spec-types': 2.0.0(typescript@5.8.2)
       '@solana/subscribable': 2.0.0(typescript@5.8.2)
       typescript: 5.8.2
+
+  '@solana/rpc-subscriptions@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+    dependencies:
+      '@solana/errors': 2.0.0(typescript@5.8.2)
+      '@solana/fast-stable-stringify': 2.0.0(typescript@5.8.2)
+      '@solana/functional': 2.0.0(typescript@5.8.2)
+      '@solana/promises': 2.0.0(typescript@5.8.2)
+      '@solana/rpc-spec-types': 2.0.0(typescript@5.8.2)
+      '@solana/rpc-subscriptions-api': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/rpc-subscriptions-channel-websocket': 2.0.0(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@solana/rpc-subscriptions-spec': 2.0.0(typescript@5.8.2)
+      '@solana/rpc-transformers': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/rpc-types': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/subscribable': 2.0.0(typescript@5.8.2)
+      typescript: 5.8.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+      - ws
 
   '@solana/rpc-subscriptions@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
@@ -5126,6 +5156,23 @@ snapshots:
     transitivePeerDependencies:
       - fastestsmallesttextencoderdecoder
 
+  '@solana/transaction-confirmation@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+    dependencies:
+      '@solana/addresses': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/codecs-strings': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/errors': 2.0.0(typescript@5.8.2)
+      '@solana/keys': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/promises': 2.0.0(typescript@5.8.2)
+      '@solana/rpc': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/rpc-subscriptions': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@solana/rpc-types': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/transaction-messages': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/transactions': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      typescript: 5.8.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+      - ws
+
   '@solana/transaction-confirmation@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@solana/addresses': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
@@ -5208,6 +5255,31 @@ snapshots:
       - bufferutil
       - encoding
       - utf-8-validate
+
+  '@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+    dependencies:
+      '@solana/accounts': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/addresses': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/codecs': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/errors': 2.0.0(typescript@5.8.2)
+      '@solana/functional': 2.0.0(typescript@5.8.2)
+      '@solana/instructions': 2.0.0(typescript@5.8.2)
+      '@solana/keys': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/programs': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/rpc': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/rpc-parsed-types': 2.0.0(typescript@5.8.2)
+      '@solana/rpc-spec-types': 2.0.0(typescript@5.8.2)
+      '@solana/rpc-subscriptions': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@solana/rpc-types': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/signers': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/sysvars': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/transaction-confirmation': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@solana/transaction-messages': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      '@solana/transactions': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)
+      typescript: 5.8.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+      - ws
 
   '@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
@@ -5348,6 +5420,17 @@ snapshots:
       - expo-localization
       - react-native
 
+  '@trezor/blockchain-link-types@1.2.5(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+    dependencies:
+      '@solana/web3.js': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@trezor/type-utils': 1.1.4
+      '@trezor/utxo-lib': 2.2.6(tslib@2.8.1)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+      - typescript
+      - ws
+
   '@trezor/blockchain-link-types@1.2.5(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@solana/web3.js': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.2)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
@@ -5414,16 +5497,16 @@ snapshots:
       - expo-localization
       - react-native
 
-  '@trezor/connect-plugin-stellar@9.0.6(@stellar/stellar-sdk@12.3.0)(@trezor/connect@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(tslib@2.8.1)':
+  '@trezor/connect-plugin-stellar@9.0.6(@stellar/stellar-sdk@12.3.0)(@trezor/connect@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(tslib@2.8.1)':
     dependencies:
       '@stellar/stellar-sdk': 12.3.0
-      '@trezor/connect': 9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@trezor/connect': 9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@trezor/utils': 9.2.2(tslib@2.8.1)
       tslib: 2.8.1
 
-  '@trezor/connect-web@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@trezor/connect-web@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
-      '@trezor/connect': 9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@trezor/connect': 9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@trezor/connect-common': 0.2.7(tslib@2.8.1)
       '@trezor/utils': 9.2.6(tslib@2.8.1)
       tslib: 2.8.1
@@ -5440,14 +5523,14 @@ snapshots:
       - utf-8-validate
       - ws
 
-  '@trezor/connect@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@trezor/connect@9.4.7(@babel/core@7.26.9)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@babel/preset-typescript': 7.26.0(@babel/core@7.26.9)
       '@ethereumjs/common': 4.4.0
       '@ethereumjs/tx': 5.4.0
       '@fivebinaries/coin-selection': 2.2.1
       '@trezor/blockchain-link': 2.3.6(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(utf-8-validate@5.0.10)
-      '@trezor/blockchain-link-types': 1.2.5(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@trezor/blockchain-link-types': 1.2.5(fastestsmallesttextencoderdecoder@1.0.22)(tslib@2.8.1)(typescript@5.8.2)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@trezor/connect-analytics': 1.2.4(tslib@2.8.1)
       '@trezor/connect-common': 0.2.7(tslib@2.8.1)
       '@trezor/protobuf': 1.2.6(tslib@2.8.1)
